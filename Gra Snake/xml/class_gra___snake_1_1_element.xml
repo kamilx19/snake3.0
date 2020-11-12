@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_gra___snake_1_1_element" kind="class" language="C#" prot="public">
+    <compoundname>Gra_Snake::Element</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_gra___snake_1_1_element_1a8b911eb203e5b9429977f99586ad88eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Gra_Snake.Element.X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <briefdescription>
+<para>klasa tworzy element o podanych współrzędnych x i y <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate X.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate Y.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Element.cs" line="19" column="20" bodyfile="Element.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_gra___snake_1_1_element_1a6c6fc19709852fce9710548f2a3db12d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Gra_Snake.Element.Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Element.cs" line="20" column="20" bodyfile="Element.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra___snake_1_1_element_1a24dd80cab71746b951cd8368d7bfdac3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Gra_Snake.Element.Element</definition>
+        <argsstring>()</argsstring>
+        <name>Element</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Element.cs" line="22" column="16" bodyfile="Element.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Element.cs" line="10" column="5" bodyfile="Element.cs" bodystart="11" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_gra___snake_1_1_element_1a24dd80cab71746b951cd8368d7bfdac3" prot="public" virt="non-virtual"><scope>Gra_Snake::Element</scope><name>Element</name></member>
+      <member refid="class_gra___snake_1_1_element_1a8b911eb203e5b9429977f99586ad88eb" prot="public" virt="non-virtual"><scope>Gra_Snake::Element</scope><name>X</name></member>
+      <member refid="class_gra___snake_1_1_element_1a6c6fc19709852fce9710548f2a3db12d" prot="public" virt="non-virtual"><scope>Gra_Snake::Element</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

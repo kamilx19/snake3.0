@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_gra___snake" kind="namespace" language="C#">
+    <compoundname>Gra_Snake</compoundname>
+    <innerclass refid="class_gra___snake_1_1_element" prot="public">Gra_Snake::Element</innerclass>
+    <innerclass refid="class_gra___snake_1_1_form1" prot="public">Gra_Snake::Form1</innerclass>
+    <innerclass refid="class_gra___snake_1_1_odczyt" prot="public">Gra_Snake::Odczyt</innerclass>
+    <innerclass refid="class_gra___snake_1_1_program" prot="public">Gra_Snake::Program</innerclass>
+    <innerclass refid="class_gra___snake_1_1_ustawienia" prot="public">Gra_Snake::Ustawienia</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_gra___snake_1aaec7a21d02debeee644e921a5f601bc1" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Kierunek</name>
+        <enumvalue id="namespace_gra___snake_1aaec7a21d02debeee644e921a5f601bc1a858d01562d1a6d69cc0f8daaf8f27a96" prot="public">
+          <name>Gora</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_gra___snake_1aaec7a21d02debeee644e921a5f601bc1a2d8497207dc18954d6cbce8903741f95" prot="public">
+          <name>Dol</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_gra___snake_1aaec7a21d02debeee644e921a5f601bc1a64ecdad74ccdd8651f4d2a1c4bf3bbf5" prot="public">
+          <name>Lewo</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_gra___snake_1aaec7a21d02debeee644e921a5f601bc1ab859ba25e212a0026ddfbf752fa584dc" prot="public">
+          <name>Prawo</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Ustawienia.cs" line="12" column="11" bodyfile="Ustawienia.cs" bodystart="12" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Element.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

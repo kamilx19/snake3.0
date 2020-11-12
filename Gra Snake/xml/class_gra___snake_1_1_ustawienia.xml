@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_gra___snake_1_1_ustawienia" kind="class" language="C#" prot="public">
+    <compoundname>Gra_Snake::Ustawienia</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_gra___snake_1_1_ustawienia_1a15a9a96a0771c08a9cf6b1db6334eb5b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Gra_Snake.Ustawienia.Szerokosc</definition>
+        <argsstring></argsstring>
+        <name>Szerokosc</name>
+        <briefdescription>
+<para>klasa zawiera ustawienia gry <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Kierunek</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Kierunek ruchu.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Szybkosc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Szybkosc węża.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Ustawienia.cs" line="27" column="27" bodyfile="Ustawienia.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_gra___snake_1_1_ustawienia_1a5321db48a79fcffe6830374a9149aa03" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Gra_Snake.Ustawienia.Wysokosc</definition>
+        <argsstring></argsstring>
+        <name>Wysokosc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Ustawienia.cs" line="28" column="27" bodyfile="Ustawienia.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_gra___snake_1_1_ustawienia_1acb8acb24e7fe87eb02b051c7b09d2628" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Gra_Snake.Ustawienia.Szybkosc</definition>
+        <argsstring></argsstring>
+        <name>Szybkosc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Ustawienia.cs" line="29" column="27" bodyfile="Ustawienia.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_gra___snake_1_1_ustawienia_1aaf9398c39ef5f555a67e9e30f75ed511" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Gra_Snake.Ustawienia.Wynik</definition>
+        <argsstring></argsstring>
+        <name>Wynik</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Ustawienia.cs" line="30" column="27" bodyfile="Ustawienia.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_gra___snake_1_1_ustawienia_1a5896bcb32d082ad9271b65855172d585" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Gra_Snake.Ustawienia.Punkty</definition>
+        <argsstring></argsstring>
+        <name>Punkty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Ustawienia.cs" line="31" column="27" bodyfile="Ustawienia.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_gra___snake_1_1_ustawienia_1a0a21b1ef8e9143e085f8562088016a76" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Gra_Snake.Ustawienia.KoniecGry</definition>
+        <argsstring></argsstring>
+        <name>KoniecGry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Ustawienia.cs" line="32" column="28" bodyfile="Ustawienia.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_gra___snake_1_1_ustawienia_1a2af9c2ee9c96b9ee39abd06ed08f1777" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Kierunek</type>
+        <definition>Kierunek Gra_Snake.Ustawienia.kierunek</definition>
+        <argsstring></argsstring>
+        <name>kierunek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Ustawienia.cs" line="33" column="32" bodyfile="Ustawienia.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra___snake_1_1_ustawienia_1ade6fd8c9432e3402ada75157b478b1ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Gra_Snake.Ustawienia.Ustawienia</definition>
+        <argsstring>()</argsstring>
+        <name>Ustawienia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Ustawienia.cs" line="36" column="16" bodyfile="Ustawienia.cs" bodystart="36" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Ustawienia.cs" line="19" column="5" bodyfile="Ustawienia.cs" bodystart="20" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_gra___snake_1_1_ustawienia_1a2af9c2ee9c96b9ee39abd06ed08f1777" prot="public" virt="non-virtual"><scope>Gra_Snake::Ustawienia</scope><name>kierunek</name></member>
+      <member refid="class_gra___snake_1_1_ustawienia_1a0a21b1ef8e9143e085f8562088016a76" prot="public" virt="non-virtual"><scope>Gra_Snake::Ustawienia</scope><name>KoniecGry</name></member>
+      <member refid="class_gra___snake_1_1_ustawienia_1a5896bcb32d082ad9271b65855172d585" prot="public" virt="non-virtual"><scope>Gra_Snake::Ustawienia</scope><name>Punkty</name></member>
+      <member refid="class_gra___snake_1_1_ustawienia_1a15a9a96a0771c08a9cf6b1db6334eb5b" prot="public" virt="non-virtual"><scope>Gra_Snake::Ustawienia</scope><name>Szerokosc</name></member>
+      <member refid="class_gra___snake_1_1_ustawienia_1acb8acb24e7fe87eb02b051c7b09d2628" prot="public" virt="non-virtual"><scope>Gra_Snake::Ustawienia</scope><name>Szybkosc</name></member>
+      <member refid="class_gra___snake_1_1_ustawienia_1ade6fd8c9432e3402ada75157b478b1ab" prot="public" virt="non-virtual"><scope>Gra_Snake::Ustawienia</scope><name>Ustawienia</name></member>
+      <member refid="class_gra___snake_1_1_ustawienia_1aaf9398c39ef5f555a67e9e30f75ed511" prot="public" virt="non-virtual"><scope>Gra_Snake::Ustawienia</scope><name>Wynik</name></member>
+      <member refid="class_gra___snake_1_1_ustawienia_1a5321db48a79fcffe6830374a9149aa03" prot="public" virt="non-virtual"><scope>Gra_Snake::Ustawienia</scope><name>Wysokosc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

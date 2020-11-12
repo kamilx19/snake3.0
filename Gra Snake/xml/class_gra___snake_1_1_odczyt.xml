@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_gra___snake_1_1_odczyt" kind="class" language="C#" prot="public">
+    <compoundname>Gra_Snake::Odczyt</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_gra___snake_1_1_odczyt_1a6115d6365feb40d71de3b6b1ccafe88c" prot="private" static="yes" mutable="no">
+        <type>Hashtable</type>
+        <definition>Hashtable Gra_Snake.Odczyt.tablicaKlawiszy</definition>
+        <argsstring></argsstring>
+        <name>tablicaKlawiszy</name>
+        <initializer>= new Hashtable()</initializer>
+        <briefdescription>
+<para>klasa zawiera 2 metody, 1 sprawdza czy przycisk jest wciśnięty a druga jest do zmieniania stanu przycisku <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>CzyWcisniety</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Czy przycisk jest wciśnięty.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ZmienStatus</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zmiana statusu.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Odczyt.cs" line="18" column="34" bodyfile="Odczyt.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_gra___snake_1_1_odczyt_1a93b69b5d6536426a7cc02baa28ec29dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Gra_Snake.Odczyt.CzyWcisniety</definition>
+        <argsstring>(Keys przycisk)</argsstring>
+        <name>CzyWcisniety</name>
+        <param>
+          <type>Keys</type>
+          <declname>przycisk</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Odczyt.cs" line="20" column="28" bodyfile="Odczyt.cs" bodystart="20" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra___snake_1_1_odczyt_1a6504db49270e4b5f36e7eebbd3915e8c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Gra_Snake.Odczyt.ZmienStatus</definition>
+        <argsstring>(Keys przycisk, bool stan)</argsstring>
+        <name>ZmienStatus</name>
+        <param>
+          <type>Keys</type>
+          <declname>przycisk</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>stan</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Odczyt.cs" line="29" column="28" bodyfile="Odczyt.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Odczyt.cs" line="11" column="5" bodyfile="Odczyt.cs" bodystart="12" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_gra___snake_1_1_odczyt_1a93b69b5d6536426a7cc02baa28ec29dc" prot="public" virt="non-virtual"><scope>Gra_Snake::Odczyt</scope><name>CzyWcisniety</name></member>
+      <member refid="class_gra___snake_1_1_odczyt_1a6115d6365feb40d71de3b6b1ccafe88c" prot="private" virt="non-virtual"><scope>Gra_Snake::Odczyt</scope><name>tablicaKlawiszy</name></member>
+      <member refid="class_gra___snake_1_1_odczyt_1a6504db49270e4b5f36e7eebbd3915e8c" prot="public" virt="non-virtual"><scope>Gra_Snake::Odczyt</scope><name>ZmienStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.18">
+  <compound refid="class_gra___snake_1_1_element" kind="class"><name>Gra_Snake::Element</name>
+    <member refid="class_gra___snake_1_1_element_1a8b911eb203e5b9429977f99586ad88eb" kind="property"><name>X</name></member>
+    <member refid="class_gra___snake_1_1_element_1a6c6fc19709852fce9710548f2a3db12d" kind="property"><name>Y</name></member>
+    <member refid="class_gra___snake_1_1_element_1a24dd80cab71746b951cd8368d7bfdac3" kind="function"><name>Element</name></member>
+  </compound>
+  <compound refid="class_gra___snake_1_1_form1" kind="class"><name>Gra_Snake::Form1</name>
+    <member refid="class_gra___snake_1_1_form1_1aafada5cc2f36c66dbd1c21ae0cdefb85" kind="variable"><name>Waz</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a9f9aa7d4d36637a5347a5f0ab266cf3d" kind="variable"><name>jedzonko</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a2bdf6131d0013f66db132536c87e01da" kind="variable"><name>components</name></member>
+    <member refid="class_gra___snake_1_1_form1_1aa2f0f5c6630c4dc2d34d2f694e1f6661" kind="variable"><name>snakeCanvas</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a45460eaa375e1521d8e75dee0702ce40" kind="variable"><name>label1</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a9f81c0355db764a49a944904fe1777f5" kind="variable"><name>scoreText</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a88f462fc88ddc10655edf272001679f6" kind="variable"><name>timerGry</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a5fc1a7b54f212392f9c1a392f7b14a50" kind="variable"><name>koniecGryTekst</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a6f195894a22e7d9e4f3c5bf3c37b7a93" kind="function"><name>Form1</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a63725b1aacff7abea06bf3e2e6e5a2ce" kind="function"><name>StartGry</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a38f24c41b9d22a6a54761e79a7720e93" kind="function"><name>UtworzJedzonko</name></member>
+    <member refid="class_gra___snake_1_1_form1_1ad638e57d73082cfb5a090f9cda9c0c2e" kind="function"><name>Odswiez</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a0a8edfca99eee3cf5b2549fe0ad75484" kind="function"><name>snakeCanvas_Paint</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a1b361503ad6cc878e6eea8f8d86dd5d7" kind="function"><name>PrzesunGracza</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a8c14f5b85001b86da1ed5b20780c14e3" kind="function"><name>Jedz</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a34374e3699675eb3cc7856271b143ac9" kind="function"><name>Gin</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a5971bc56e8ebef9bd0cc430ad8af9176" kind="function"><name>Form1_KeyDown</name></member>
+    <member refid="class_gra___snake_1_1_form1_1ae061b1ca84fe27be8529d1b263d74efa" kind="function"><name>Form1_KeyUp</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a9cbdc82609eac7053ddb74076187a939" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_gra___snake_1_1_form1_1a58d00452b2badd6c3ad6a2aa6af39a28" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_gra___snake_1_1_odczyt" kind="class"><name>Gra_Snake::Odczyt</name>
+    <member refid="class_gra___snake_1_1_odczyt_1a6115d6365feb40d71de3b6b1ccafe88c" kind="variable"><name>tablicaKlawiszy</name></member>
+    <member refid="class_gra___snake_1_1_odczyt_1a93b69b5d6536426a7cc02baa28ec29dc" kind="function"><name>CzyWcisniety</name></member>
+    <member refid="class_gra___snake_1_1_odczyt_1a6504db49270e4b5f36e7eebbd3915e8c" kind="function"><name>ZmienStatus</name></member>
+  </compound>
+  <compound refid="class_gra___snake_1_1_program" kind="class"><name>Gra_Snake::Program</name>
+    <member refid="class_gra___snake_1_1_program_1aa3688f2557ee09711a22355b79ff07fc" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_gra___snake_1_1_ustawienia" kind="class"><name>Gra_Snake::Ustawienia</name>
+    <member refid="class_gra___snake_1_1_ustawienia_1a15a9a96a0771c08a9cf6b1db6334eb5b" kind="property"><name>Szerokosc</name></member>
+    <member refid="class_gra___snake_1_1_ustawienia_1a5321db48a79fcffe6830374a9149aa03" kind="property"><name>Wysokosc</name></member>
+    <member refid="class_gra___snake_1_1_ustawienia_1acb8acb24e7fe87eb02b051c7b09d2628" kind="property"><name>Szybkosc</name></member>
+    <member refid="class_gra___snake_1_1_ustawienia_1aaf9398c39ef5f555a67e9e30f75ed511" kind="property"><name>Wynik</name></member>
+    <member refid="class_gra___snake_1_1_ustawienia_1a5896bcb32d082ad9271b65855172d585" kind="property"><name>Punkty</name></member>
+    <member refid="class_gra___snake_1_1_ustawienia_1a0a21b1ef8e9143e085f8562088016a76" kind="property"><name>KoniecGry</name></member>
+    <member refid="class_gra___snake_1_1_ustawienia_1a2af9c2ee9c96b9ee39abd06ed08f1777" kind="property"><name>kierunek</name></member>
+    <member refid="class_gra___snake_1_1_ustawienia_1ade6fd8c9432e3402ada75157b478b1ab" kind="function"><name>Ustawienia</name></member>
+  </compound>
+  <compound refid="namespace_gra___snake" kind="namespace"><name>Gra_Snake</name>
+    <member refid="namespace_gra___snake_1aaec7a21d02debeee644e921a5f601bc1" kind="enum"><name>Kierunek</name></member>
+    <member refid="namespace_gra___snake_1aaec7a21d02debeee644e921a5f601bc1a858d01562d1a6d69cc0f8daaf8f27a96" kind="enumvalue"><name>Gora</name></member>
+    <member refid="namespace_gra___snake_1aaec7a21d02debeee644e921a5f601bc1a2d8497207dc18954d6cbce8903741f95" kind="enumvalue"><name>Dol</name></member>
+    <member refid="namespace_gra___snake_1aaec7a21d02debeee644e921a5f601bc1a64ecdad74ccdd8651f4d2a1c4bf3bbf5" kind="enumvalue"><name>Lewo</name></member>
+    <member refid="namespace_gra___snake_1aaec7a21d02debeee644e921a5f601bc1ab859ba25e212a0026ddfbf752fa584dc" kind="enumvalue"><name>Prawo</name></member>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms" kind="namespace"><name>System::Windows::Forms</name>
+  </compound>
+  <compound refid="_element_8cs" kind="file"><name>Element.cs</name>
+  </compound>
+  <compound refid="_form1_8cs" kind="file"><name>Form1.cs</name>
+  </compound>
+  <compound refid="_form1_8_designer_8cs" kind="file"><name>Form1.Designer.cs</name>
+  </compound>
+  <compound refid="_odczyt_8cs" kind="file"><name>Odczyt.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_ustawienia_8cs" kind="file"><name>Ustawienia.cs</name>
+  </compound>
+</doxygenindex>

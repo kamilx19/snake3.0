@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_gra___snake_1_1_form1" kind="class" language="C#" prot="public">
+    <compoundname>Gra_Snake::Form1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_gra___snake_1_1_form1_1aafada5cc2f36c66dbd1c21ae0cdefb85" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_gra___snake_1_1_element" kindref="compound">Element</ref> &gt;</type>
+        <definition>List&lt;Element&gt; Gra_Snake.Form1.Waz</definition>
+        <argsstring></argsstring>
+        <name>Waz</name>
+        <initializer>= new List&lt;<ref refid="class_gra___snake_1_1_element" kindref="compound">Element</ref>&gt;()</initializer>
+        <briefdescription>
+<para>lista elementów reprezentujących węża oraz pojedynczy <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Waz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>element reprezentujacy weza.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>jedzonko</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>elemnt reprezentujacy jedzenie</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="20" column="22" bodyfile="Form1.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra___snake_1_1_form1_1a9f9aa7d4d36637a5347a5f0ab266cf3d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gra___snake_1_1_element" kindref="compound">Element</ref></type>
+        <definition>Element Gra_Snake.Form1.jedzonko</definition>
+        <argsstring></argsstring>
+        <name>jedzonko</name>
+        <initializer>= new <ref refid="class_gra___snake_1_1_element" kindref="compound">Element</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="21" column="25" bodyfile="Form1.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra___snake_1_1_form1_1a2bdf6131d0013f66db132536c87e01da" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer Gra_Snake.Form1.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Wymagana zmienna projektanta. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="8" column="48" bodyfile="Form1.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra___snake_1_1_form1_1aa2f0f5c6630c4dc2d34d2f694e1f6661" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.PictureBox</type>
+        <definition>System.Windows.Forms.PictureBox Gra_Snake.Form1.snakeCanvas</definition>
+        <argsstring></argsstring>
+        <name>snakeCanvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="102" column="46" bodyfile="Form1.Designer.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra___snake_1_1_form1_1a45460eaa375e1521d8e75dee0702ce40" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Gra_Snake.Form1.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="103" column="41" bodyfile="Form1.Designer.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra___snake_1_1_form1_1a9f81c0355db764a49a944904fe1777f5" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Gra_Snake.Form1.scoreText</definition>
+        <argsstring></argsstring>
+        <name>scoreText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="104" column="41" bodyfile="Form1.Designer.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra___snake_1_1_form1_1a88f462fc88ddc10655edf272001679f6" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Timer</type>
+        <definition>System.Windows.Forms.Timer Gra_Snake.Form1.timerGry</definition>
+        <argsstring></argsstring>
+        <name>timerGry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="105" column="41" bodyfile="Form1.Designer.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gra___snake_1_1_form1_1a5fc1a7b54f212392f9c1a392f7b14a50" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Gra_Snake.Form1.koniecGryTekst</definition>
+        <argsstring></argsstring>
+        <name>koniecGryTekst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="106" column="41" bodyfile="Form1.Designer.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gra___snake_1_1_form1_1a6f195894a22e7d9e4f3c5bf3c37b7a93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Gra_Snake.Form1.Form1</definition>
+        <argsstring>()</argsstring>
+        <name>Form1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>inicjalizacja formularza oraz tworzenie ustawień do gry <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>InitalizeComponent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>inicjalizacja.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>new Ustawienia</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tworzenie ustawień.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>StartGry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>metoda tworząca start gry.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </inbodydescription>
+        <location file="Form1.cs" line="23" column="16" bodyfile="Form1.cs" bodystart="23" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_gra___snake_1_1_form1_1a63725b1aacff7abea06bf3e2e6e5a2ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gra_Snake.Form1.StartGry</definition>
+        <argsstring>()</argsstring>
+        <name>StartGry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="40" column="22" bodyfile="Form1.cs" bodystart="40" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra___snake_1_1_form1_1a38f24c41b9d22a6a54761e79a7720e93" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gra_Snake.Form1.UtworzJedzonko</definition>
+        <argsstring>()</argsstring>
+        <name>UtworzJedzonko</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="55" column="22" bodyfile="Form1.cs" bodystart="55" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra___snake_1_1_form1_1ad638e57d73082cfb5a090f9cda9c0c2e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gra_Snake.Form1.Odswiez</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Odswiez</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="66" column="22" bodyfile="Form1.cs" bodystart="66" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra___snake_1_1_form1_1a0a8edfca99eee3cf5b2549fe0ad75484" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gra_Snake.Form1.snakeCanvas_Paint</definition>
+        <argsstring>(object sender, PaintEventArgs e)</argsstring>
+        <name>snakeCanvas_Paint</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>PaintEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="92" column="22" bodyfile="Form1.cs" bodystart="92" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra___snake_1_1_form1_1a1b361503ad6cc878e6eea8f8d86dd5d7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gra_Snake.Form1.PrzesunGracza</definition>
+        <argsstring>()</argsstring>
+        <name>PrzesunGracza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="114" column="22" bodyfile="Form1.cs" bodystart="114" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra___snake_1_1_form1_1a8c14f5b85001b86da1ed5b20780c14e3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gra_Snake.Form1.Jedz</definition>
+        <argsstring>()</argsstring>
+        <name>Jedz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="171" column="22" bodyfile="Form1.cs" bodystart="171" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra___snake_1_1_form1_1a34374e3699675eb3cc7856271b143ac9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gra_Snake.Form1.Gin</definition>
+        <argsstring>()</argsstring>
+        <name>Gin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="181" column="22" bodyfile="Form1.cs" bodystart="181" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra___snake_1_1_form1_1a5971bc56e8ebef9bd0cc430ad8af9176" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gra_Snake.Form1.Form1_KeyDown</definition>
+        <argsstring>(object sender, KeyEventArgs e)</argsstring>
+        <name>Form1_KeyDown</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>KeyEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="186" column="22" bodyfile="Form1.cs" bodystart="186" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra___snake_1_1_form1_1ae061b1ca84fe27be8529d1b263d74efa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gra_Snake.Form1.Form1_KeyUp</definition>
+        <argsstring>(object sender, KeyEventArgs e)</argsstring>
+        <name>Form1_KeyUp</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>KeyEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="191" column="22" bodyfile="Form1.cs" bodystart="191" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gra___snake_1_1_form1_1a9cbdc82609eac7053ddb74076187a939" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Gra_Snake.Form1.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Metoda wymagana do obsługi projektanta — nie należy modyfikować jej zawartości w edytorze kodu. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="29" column="22" bodyfile="Form1.Designer.cs" bodystart="29" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_gra___snake_1_1_form1_1a58d00452b2badd6c3ad6a2aa6af39a28" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Gra_Snake.Form1.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Wyczyść wszystkie używane zasoby. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>prawda, jeżeli zarządzane zasoby powinny zostać zlikwidowane; Fałsz w przeciwnym wypadku.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="14" column="33" bodyfile="Form1.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>Gra_Snake.Form1</label>
+        <link refid="class_gra___snake_1_1_form1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>Gra_Snake.Form1</label>
+        <link refid="class_gra___snake_1_1_form1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Form1.cs" line="13" column="19" bodyfile="Form1.cs" bodystart="14" bodyend="195"/>
+    <listofallmembers>
+      <member refid="class_gra___snake_1_1_form1_1a2bdf6131d0013f66db132536c87e01da" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>components</name></member>
+      <member refid="class_gra___snake_1_1_form1_1a58d00452b2badd6c3ad6a2aa6af39a28" prot="protected" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>Dispose</name></member>
+      <member refid="class_gra___snake_1_1_form1_1a6f195894a22e7d9e4f3c5bf3c37b7a93" prot="public" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>Form1</name></member>
+      <member refid="class_gra___snake_1_1_form1_1a5971bc56e8ebef9bd0cc430ad8af9176" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>Form1_KeyDown</name></member>
+      <member refid="class_gra___snake_1_1_form1_1ae061b1ca84fe27be8529d1b263d74efa" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>Form1_KeyUp</name></member>
+      <member refid="class_gra___snake_1_1_form1_1a34374e3699675eb3cc7856271b143ac9" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>Gin</name></member>
+      <member refid="class_gra___snake_1_1_form1_1a9cbdc82609eac7053ddb74076187a939" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>InitializeComponent</name></member>
+      <member refid="class_gra___snake_1_1_form1_1a8c14f5b85001b86da1ed5b20780c14e3" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>Jedz</name></member>
+      <member refid="class_gra___snake_1_1_form1_1a9f9aa7d4d36637a5347a5f0ab266cf3d" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>jedzonko</name></member>
+      <member refid="class_gra___snake_1_1_form1_1a5fc1a7b54f212392f9c1a392f7b14a50" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>koniecGryTekst</name></member>
+      <member refid="class_gra___snake_1_1_form1_1a45460eaa375e1521d8e75dee0702ce40" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>label1</name></member>
+      <member refid="class_gra___snake_1_1_form1_1ad638e57d73082cfb5a090f9cda9c0c2e" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>Odswiez</name></member>
+      <member refid="class_gra___snake_1_1_form1_1a1b361503ad6cc878e6eea8f8d86dd5d7" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>PrzesunGracza</name></member>
+      <member refid="class_gra___snake_1_1_form1_1a9f81c0355db764a49a944904fe1777f5" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>scoreText</name></member>
+      <member refid="class_gra___snake_1_1_form1_1aa2f0f5c6630c4dc2d34d2f694e1f6661" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>snakeCanvas</name></member>
+      <member refid="class_gra___snake_1_1_form1_1a0a8edfca99eee3cf5b2549fe0ad75484" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>snakeCanvas_Paint</name></member>
+      <member refid="class_gra___snake_1_1_form1_1a63725b1aacff7abea06bf3e2e6e5a2ce" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>StartGry</name></member>
+      <member refid="class_gra___snake_1_1_form1_1a88f462fc88ddc10655edf272001679f6" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>timerGry</name></member>
+      <member refid="class_gra___snake_1_1_form1_1a38f24c41b9d22a6a54761e79a7720e93" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>UtworzJedzonko</name></member>
+      <member refid="class_gra___snake_1_1_form1_1aafada5cc2f36c66dbd1c21ae0cdefb85" prot="private" virt="non-virtual"><scope>Gra_Snake::Form1</scope><name>Waz</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
