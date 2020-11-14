@@ -51,7 +51,9 @@ namespace Gra_Snake
             scoreText.Text = Ustawienia.Wynik.ToString();
             UtworzJedzonko();
         }
-
+        /// <summary>
+        /// metoda, która generuje randomowo na polu gry jedzenie dla węża
+        /// </summary>
         private void UtworzJedzonko()
         {
             int maxX = snakeCanvas.Size.Width / Ustawienia.Szerokosc;
@@ -135,14 +137,16 @@ namespace Gra_Snake
 
                     int maxX = snakeCanvas.Size.Width / Ustawienia.Szerokosc;
                     int maxY = snakeCanvas.Size.Height / Ustawienia.Wysokosc;
-
-                    //kolizja ze scianami
+                    ///<summary>
+                    ///kolizja ze scianami
+                    ///</summary>
                     if (Waz[i].X<0||Waz[i].Y<0 || Waz[i].X>=maxX ||Waz[i].Y>=maxY)
                     {
                         Gin();
                     }
-
-                    //kolizja ze swoim cialem
+                     /// <summary>
+                    ///kolizja ze swoim cialem
+                    /// </summary>
                     for (int j=1;j<Waz.Count;j++)
                     {
                         if(Waz[i].X == Waz[j].X && Waz[i].Y == Waz[j].Y)
@@ -150,8 +154,9 @@ namespace Gra_Snake
                             Gin();
                         }
                     }
-
-                    //kolizja z jedzeniem
+                     /// <summary>
+                    ///kolizja z jedzeniem
+                    /// </summary>
                     if (Waz[0].X==jedzonko.X && Waz[0].Y==jedzonko.Y)
                     {
                         Jedz();
@@ -167,7 +172,7 @@ namespace Gra_Snake
                
         }
 
-
+        
         private void Jedz()
         {
             Element element = new Element { X = Waz[Waz.Count - 1].X, Y = Waz[Waz.Count - 1].Y };
