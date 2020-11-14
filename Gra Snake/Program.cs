@@ -5,12 +5,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data;
 using MySql.Data.MySqlClient;
-        /// <summary>
-        /// Główny punkt wejścia dla aplikacji.
-        /// </summary>
+       
 namespace Gra_Snake
         
 {
+         /// <summary>
+         /// Główny punkt wejścia dla aplikacji.
+         /// </summary>
+        
     static class Program
     {
      
