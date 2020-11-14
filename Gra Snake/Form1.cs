@@ -10,24 +10,24 @@ using System.Windows.Forms;
 
 namespace Gra_Snake
 {
-    public partial class Form1 : Form
-    {
         /// <summary>
         /// lista elementów reprezentujących węża oraz pojedynczy 
         /// <param name="Waz">element reprezentujacy weza.</param>
         /// <param name="jedzonko">elemnt reprezentujacy jedzenie</param>
         /// </summary>
+    public partial class Form1 : Form
+    {
+        
         private List<Element> Waz = new List<Element>();
         private Element jedzonko = new Element();
+        
+        /// <summary>
+        /// inicjalizacja formularza oraz tworzenie ustawień do gry
+        /// </summary>
 
         public Form1()
         {
-        /// <summary>
-        /// inicjalizacja formularza oraz tworzenie ustawień do gry
-        /// <param name="InitalizeComponent">inicjalizacja.</param>
-        /// <param name="new Ustawienia">tworzenie ustawień.</param>
-        /// <param name="StartGry">metoda tworząca start gry.</param>
-        /// </summary>
+       
             InitializeComponent();
             new Ustawienia();
             timerGry.Interval = 1000 / Ustawienia.Szybkosc;
