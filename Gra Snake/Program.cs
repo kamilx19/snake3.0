@@ -7,12 +7,13 @@ using System.Data;
 using MySql.Data.MySqlClient;
 
 namespace Gra_Snake
-{
-    static class Program
-    {
         /// <summary>
         /// Główny punkt wejścia dla aplikacji.
         /// </summary>
+{
+    static class Program
+    {
+     
         [STAThread]
         static void Main()
         {
