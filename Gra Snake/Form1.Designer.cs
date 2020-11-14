@@ -1,10 +1,12 @@
 ﻿namespace Gra_Snake
 {
-    partial class Form1
-    {
         /// <summary>
         /// Wymagana zmienna projektanta.
         /// </summary>
+     
+    partial class Form1
+    {
+        
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
