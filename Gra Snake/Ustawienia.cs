@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Gra_Snake
 {
-   
+   /// <summary>
+   /// Ustawienia gry
+   /// </summary>
     
    
     public enum Kierunek {
@@ -17,6 +19,7 @@ namespace Gra_Snake
     };
         /// <summary>
         /// klasa zawiera ustawienia gry
+         /// </summary>
         /// <param name="Kierunek">Kierunek ruchu.</param>
         /// <param name="Szybkosc">Szybkosc węża.</param>
         /// </summary>
@@ -32,7 +35,9 @@ namespace Gra_Snake
         public static bool KoniecGry { get; set; }
         public static Kierunek kierunek { get; set; }
 
-        
+        /// <summary>
+        /// Bieżące ustawienia
+        /// </summary>
         public Ustawienia()
         {
 
