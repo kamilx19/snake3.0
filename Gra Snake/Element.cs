@@ -8,10 +8,11 @@ namespace Gra_Snake
         
 {
         /// <summary>
-        /// klasa tworzy element o podanych współrzędnych x i y
+        /// klasa tworzy element współrzędnych x i y
+        /// </summary>
         /// <param name="x">Coordinate X.</param>
         /// <param name="y">Coordinate Y.</param>
-        /// </summary>
+      
         
     class Element
     {
