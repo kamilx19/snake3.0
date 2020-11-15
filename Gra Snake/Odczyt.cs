@@ -11,8 +11,6 @@ namespace Gra_Snake
 {
         /// <summary>
         /// klasa zawiera 2 metody, 1 sprawdza czy przycisk jest wciśnięty a druga jest do zmieniania stanu przycisku
-        /// <param name="CzyWcisniety">Czy przycisk jest wciśnięty.</param>
-        /// <param name="ZmienStatus">Zmiana statusu.</param>
         /// </summary>
         ///</returns></returns>
         
