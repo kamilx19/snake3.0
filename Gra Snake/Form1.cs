@@ -36,6 +36,9 @@ namespace Gra_Snake
 
             StartGry();
         }
+        /// <summary>
+        /// Rozpoczęcie gry
+        /// </summary>
 
         private void StartGry()
         {
