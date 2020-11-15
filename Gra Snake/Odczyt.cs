@@ -19,6 +19,10 @@ namespace Gra_Snake
     {
         
         private static Hashtable tablicaKlawiszy = new Hashtable();
+           
+           /// <summary>
+           /// Sprawdzanie czy przycisk jest wciśnięty
+           /// </summary>
 
         public static bool CzyWcisniety(Keys przycisk)
         {
@@ -28,6 +32,10 @@ namespace Gra_Snake
             }
             return (bool)tablicaKlawiszy[przycisk];
         }
+           
+           /// <summary>
+           /// zmienianie stanu przycisku
+           /// </summary>
 
         public static void ZmienStatus(Keys przycisk, bool stan)
         {
