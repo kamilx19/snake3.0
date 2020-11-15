@@ -14,6 +14,7 @@ namespace Gra_Snake
         /// <param name="CzyWcisniety">Czy przycisk jest wciśnięty.</param>
         /// <param name="ZmienStatus">Zmiana statusu.</param>
         /// </summary>
+        ///</returns></returns>
         
     class Odczyt
     {
